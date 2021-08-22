@@ -39,7 +39,7 @@ public class Sample {
         log.info("开始执行ddns更新...");
         try {
             java.util.List<String> args = java.util.Arrays.asList(args_);
-            com.aliyun.alidns20150109.Client client = Sample.createClient("LTAI5t8tX5gtattfRY8Ccz7K", "BaxOZANxCyjNRIblhqG7f4Qi8q3t0L");
+            com.aliyun.alidns20150109.Client client = Sample.createClient("", "");
 
             //get record info
             DescribeSubDomainRecordsRequest describeSubDomainRecordsRequest = new DescribeSubDomainRecordsRequest()
